@@ -1,0 +1,28 @@
+.header {
+	display: flex;
+	align-items: center;
+	gap: 40px;
+	margin: 92px 0 92px;
+	padding: 0 50px;
+	letter-spacing: 0.1px;
+}
+
+.header__menu-list {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	gap: 33px;
+	list-style: circle;
+}
+
+.header__menu-list-item_no-bullit {
+	list-style: none;
+}
+
+.header__logo {
+	max-width: 136px;
+}
+
+.header__contacts {
+	margin-left: 9.5rem;
+}
