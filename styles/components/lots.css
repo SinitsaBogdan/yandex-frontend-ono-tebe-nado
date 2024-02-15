@@ -1,0 +1,32 @@
+.lots {
+	margin-top: 179px;
+	padding-right: 24px;
+	padding-left: 24px;
+}
+
+.lots__heading {
+	padding: 0 0 27px 40px;
+	font-family: 'Raleway-Bold', sans-serif;
+	font-size: 40px;
+	text-transform: uppercase;
+}
+
+.lots__card-list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 25px;
+	padding-bottom: 30px;
+	list-style: none;
+}
+
+.lots__card-list-item {
+	flex-grow: 1;
+	width: 334px;
+	height: 563px;
+}
+
+.lots__look-more-link {
+	max-width: fit-content;
+	margin-left: 40px;
+	font-size: 20px;
+}
