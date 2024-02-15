@@ -1,0 +1,48 @@
+.about {
+	display: grid;
+	grid-template-areas:
+		'logo	title'
+		'.		text';
+	row-gap: 10px;
+	column-gap: 72px;
+	margin-top: 181px;
+	padding-right: 29px;
+	padding-left: 71px;
+}
+
+.about__column {
+	display: flex;
+	flex-direction: column;
+	grid-area: text;
+	row-gap: 22px;
+}
+
+.about__logo {
+	display: flex;
+	grid-area: logo;
+	justify-content: center;
+	align-items: center;
+	min-width: 240px;
+	height: 240px;
+	margin-top: 2px;
+	border-radius: 100%;
+	background-color: black;
+}
+
+.about__logo-image {
+	width: 148px;
+}
+
+.about__title {
+	grid-area: title;
+	align-self: center;
+	margin-top: 10px;
+	font-family: 'Raleway-Bold', serif;
+	font-size: 40px;
+	text-transform: uppercase;
+}
+
+.about__text {
+	font-size: 20px;
+	line-height: 24px;
+}
