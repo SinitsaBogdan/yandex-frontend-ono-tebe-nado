@@ -1,0 +1,9 @@
+@import url(./normalize.css);
+@import url(./global.css);
+@import url(./components/header.css);
+@import url(./components/contacts.css);
+@import url(./components/cover.css);
+@import url(./components/lots.css);
+@import url(./components/cart.css);
+@import url(./components/about.css);
+@import url(./components/footer.css);
