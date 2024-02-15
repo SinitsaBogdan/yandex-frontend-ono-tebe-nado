@@ -1,0 +1,35 @@
+.contacts {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	width: 240px;
+	min-height: 100px;
+}
+
+.contacts a {
+	display: inline;
+}
+
+.contacts__phone,
+.contacts__mail {
+	max-width: fit-content;
+	border-bottom: 1px solid black;
+}
+
+.contacts__phone {
+	margin-top: 1px;
+	margin-bottom: 3px;
+	letter-spacing: 0.2px;
+}
+
+.contacts__mail {
+	margin-bottom: 1px;
+	letter-spacing: 0.2px;
+}
+
+.contacts__address {
+	font-style: normal;
+	line-height: 24px;
+	letter-spacing: 0.1px;
+}
