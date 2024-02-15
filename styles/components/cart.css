@@ -1,0 +1,41 @@
+.card {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100%;
+	padding: 51px 40px 48px;
+	color: white;
+}
+
+.card_type_film {
+	background: url(/images/card-lot-01.jpg) center center no-repeat;
+	background-size: cover;
+}
+
+.card_type_book {
+	background: url(/images/card-lot-02.jpg) center center no-repeat;
+	background-size: cover;
+}
+
+.card_type_picture {
+	background: url(/images/card-lot-03.jpg) center center no-repeat;
+	background-size: cover;
+}
+
+.card__title {
+	font-size: 22px;
+	text-decoration: underline;
+	text-transform: uppercase;
+	word-spacing: 2px;
+}
+
+.card__text {
+	font-size: 20px;
+	line-height: 120%;
+}
+
+.card__title,
+.card__text {
+	z-index: 1;
+}
