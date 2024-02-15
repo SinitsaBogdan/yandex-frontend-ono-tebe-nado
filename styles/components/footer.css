@@ -1,0 +1,31 @@
+.footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin: 180px 0 88px;
+	padding: 0 50px;
+}
+
+.footer__menu-list {
+	display: flex;
+	flex-direction: column;
+	row-gap: 1px;
+	text-align: center;
+	list-style: none;
+}
+
+.footer__social-list {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	min-width: 240px;
+	list-style: none;
+}
+
+.footer__social-list-item {
+	width: 48px;
+}
+
+.footer__social-icon {
+	width: 100%;
+}
