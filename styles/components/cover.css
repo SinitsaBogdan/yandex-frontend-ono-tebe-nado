@@ -1,0 +1,37 @@
+.cover {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 757px;
+	color: #fff;
+	text-transform: uppercase;
+	background: url(/images/cover.jpg) center center no-repeat;
+	background-size: cover;
+}
+
+.cover__title {
+	z-index: 1;
+	padding: 165px 50px 0;
+	font-family: 'Raleway-Bold', serif;
+	font-size: 100px;
+}
+
+.cover__description {
+	z-index: 1;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 50px 51px 78px;
+	font-size: 22px;
+}
+
+.cover__description-text {
+	display: block;
+	word-spacing: 18.6px;
+}
+
+.cover__button {
+	border: 1px solid #fff;
+	padding: 11.3px 32px;
+}
