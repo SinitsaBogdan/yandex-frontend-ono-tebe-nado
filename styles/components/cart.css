@@ -6,25 +6,24 @@
 	height: 100%;
 	padding: 51px 40px 48px;
 	color: white;
+	background-size: cover;
 }
 
 .card_type_film {
 	background: url(/images/card-lot-01.jpg) center center no-repeat;
-	background-size: cover;
 }
 
 .card_type_book {
 	background: url(/images/card-lot-02.jpg) center center no-repeat;
-	background-size: cover;
 }
 
 .card_type_picture {
 	background: url(/images/card-lot-03.jpg) center center no-repeat;
-	background-size: cover;
 }
 
 .card__title {
 	font-size: 22px;
+	font-weight: bold;
 	text-decoration: underline;
 	text-transform: uppercase;
 	word-spacing: 2px;

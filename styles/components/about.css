@@ -10,13 +10,6 @@
 	padding-left: 71px;
 }
 
-.about__column {
-	display: flex;
-	flex-direction: column;
-	grid-area: text;
-	row-gap: 22px;
-}
-
 .about__logo {
 	display: flex;
 	grid-area: logo;
@@ -40,6 +33,13 @@
 	font-weight: bold;
 	font-size: 40px;
 	text-transform: uppercase;
+}
+
+.about__column {
+	display: flex;
+	flex-direction: column;
+	grid-area: text;
+	row-gap: 22px;
 }
 
 .about__text {

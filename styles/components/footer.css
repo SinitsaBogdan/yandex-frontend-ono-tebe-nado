@@ -9,7 +9,7 @@
 .footer__menu-list {
 	display: flex;
 	flex-direction: column;
-	row-gap: 1px;
+	row-gap: 0.6px;
 	text-align: center;
 	list-style: none;
 }

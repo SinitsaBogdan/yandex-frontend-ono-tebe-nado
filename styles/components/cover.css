@@ -32,6 +32,9 @@
 }
 
 .cover__button {
+	font-size: 20px;
+	text-transform: uppercase;
 	border: 1px solid #fff;
-	padding: 11.3px 32px;
+	padding: 13px 34px;
+	letter-spacing: 1px;
 }
