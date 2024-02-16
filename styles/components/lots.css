@@ -6,7 +6,7 @@
 
 .lots__heading {
 	padding: 0 0 27px 40px;
-	font-family: 'Raleway-Bold', sans-serif;
+	font-weight: bold;
 	font-size: 40px;
 	text-transform: uppercase;
 }

@@ -37,7 +37,7 @@
 	grid-area: title;
 	align-self: center;
 	margin-top: 10px;
-	font-family: 'Raleway-Bold', serif;
+	font-weight: bold;
 	font-size: 40px;
 	text-transform: uppercase;
 }

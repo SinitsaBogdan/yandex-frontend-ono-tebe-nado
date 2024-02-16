@@ -13,7 +13,7 @@
 .cover__title {
 	z-index: 1;
 	padding: 165px 50px 0;
-	font-family: 'Raleway-Bold', serif;
+	font-weight: bold;
 	font-size: 100px;
 }
 
