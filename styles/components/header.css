@@ -1,10 +1,10 @@
 .header {
-	display: flex;
+	display: grid;
 	align-items: center;
-	gap: 40px;
 	margin: 92px 0 92px;
 	padding: 0 50px;
 	letter-spacing: 0.1px;
+	grid-template: min-content / 1fr min-content 1fr;
 }
 
 .header__menu-list {
@@ -12,6 +12,7 @@
 	justify-content: space-around;
 	align-items: center;
 	gap: 33px;
+	width: max-content;
 	list-style: circle;
 }
 
@@ -20,9 +21,9 @@
 }
 
 .header__logo {
-	max-width: 136px;
+	min-width: 136px;
 }
 
 .header__contacts {
-	margin-left: 12.6rem;
+	justify-self: end;
 }

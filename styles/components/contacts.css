@@ -1,11 +1,12 @@
 .contacts {
 	display: flex;
 	flex-direction: column;
-	font-style: normal;
 	justify-content: flex-start;
 	align-items: flex-start;
-	width: 240px;
-	min-height: 100px;
+	row-gap: 1px;
+	min-width: 240px;
+	max-width: 240px;
+	font-style: normal;
 }
 
 .contacts a {

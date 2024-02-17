@@ -22,11 +22,11 @@
 }
 
 .card__title {
-	font-size: 22px;
 	font-weight: bold;
+	font-size: 22px;
 	text-decoration: underline;
 	text-transform: uppercase;
-	word-spacing: 2px;
+	word-spacing: 1.2px;
 }
 
 .card__text {
