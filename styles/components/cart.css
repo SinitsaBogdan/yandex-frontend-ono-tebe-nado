@@ -6,19 +6,18 @@
 	height: 100%;
 	padding: 51px 40px 48px;
 	color: white;
-	background-size: cover;
 }
 
 .card_type_film {
-	background: url(/images/card-lot-01.jpg) center center no-repeat;
+	background: url(/images/card-lot-01.jpg) no-repeat center / cover;
 }
 
 .card_type_book {
-	background: url(/images/card-lot-02.jpg) center center no-repeat;
+	background: url(/images/card-lot-02.jpg) no-repeat center / cover;
 }
 
 .card_type_picture {
-	background: url(/images/card-lot-03.jpg) center center no-repeat;
+	background: url(/images/card-lot-03.jpg) no-repeat center / cover;
 }
 
 .card__title {

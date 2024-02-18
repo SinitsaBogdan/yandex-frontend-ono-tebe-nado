@@ -4,7 +4,6 @@
 	justify-content: flex-start;
 	align-items: flex-start;
 	row-gap: 1px;
-	min-width: 240px;
 	max-width: 240px;
 	font-style: normal;
 }

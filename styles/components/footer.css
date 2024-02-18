@@ -11,6 +11,7 @@
 	flex-direction: column;
 	row-gap: 0.6px;
 	min-width: max-content;
+	margin-left: 20px;
 	text-align: center;
 	list-style: none;
 }
